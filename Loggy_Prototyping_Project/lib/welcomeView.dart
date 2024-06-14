@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loggy_prototype/production.dart';
+import 'package:loggy_prototyping_project/production.dart';
 
 class welcomeView extends StatelessWidget {
   const welcomeView({super.key});
