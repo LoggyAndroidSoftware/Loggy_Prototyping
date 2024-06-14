@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2806d6d-a20b-466d-ae33-a71e0ad56657" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/model/product.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/inventory_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/widgets/product_card.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Loggy_Prototyping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loggy_Prototyping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f2806d6d-a20b-466d-ae33-a71e0ad56657" name="Changes" comment="feat(inventory): added inventory screen and add product screen.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/functions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/functions.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/inventory.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/add_product_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/loginView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/login_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/welcomeView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/welcome_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/add_product_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/add_product_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/inventory_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/inventory_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +80,30 @@
       <option name="presentableId" value="Default" />
       <updated>1718341466909</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat(inventory): added inventory screen and add product screen.">
+      <option name="closed" value="true" />
+      <created>1718399565747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718399565747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(inventory): added inventory screen and add product screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(inventory): added inventory screen and add product screen." />
   </component>
 </project>

@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-// datos del product
-// final String name;
-// final String code;
-// final int quantity;
-// final double weight;
-// final DateTime date;
+
 
 class AddProductScreen extends StatelessWidget {
   const AddProductScreen({super.key});
@@ -14,13 +9,13 @@ class AddProductScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: const Text('Producto'),
+        title: const Text('Agregar Producto'),
       ),
-      body:  Padding(
-        padding: const EdgeInsets.all(15.0),
+      body: const Padding(
+        padding: EdgeInsets.all(15.0),
         child: Column(
           children: [
-            const Text(
+            Text(
               'Producto',
               style: TextStyle(
                 fontSize: 24,
@@ -28,15 +23,52 @@ class AddProductScreen extends StatelessWidget {
               ),
             ),
 
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text('Guardar'),
+            SizedBox(height: 20),
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Nombre del producto',
+              ),
             ),
-
+            SizedBox(height: 20),
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Código del producto',
+              ),
+            ),
+            SizedBox(height: 20),
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Cantidad',
+              ),
+            ),
+            SizedBox(height: 20),
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Peso',
+              ),
+            ),
+            SizedBox(height: 20),
+      //usar un datetimepciker
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Fecha',
+              ),
+            ),
 
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+        child: const Icon(Icons.save),
+      )
     );
   }
 }

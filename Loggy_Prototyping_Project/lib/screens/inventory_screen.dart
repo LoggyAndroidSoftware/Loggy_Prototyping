@@ -40,38 +40,40 @@ class InventoryScreen extends StatelessWidget {
               const SizedBox(height: 20,),
               //crear una lista de 5 productos con el widget productt card con productos derivados del petroleo
 
-              ListView(
-                shrinkWrap: true,
-                children: const [
-                  ProductCard(
-                    name: 'Aceite de motor',
-                    code: '2916',
-                    quantity: 10,
-                  ),
-                  ProductCard(
-                    name: 'Filtro de aire',
-                    code: '2917',
-                    quantity: 20,
-                  ),
-                  ProductCard(
-                    name: 'Aceite Vistony',
-                    code: '2918',
-                    quantity: 30,
-                  ),
-                  ProductCard(
-                    name: 'Aceite de transmisión',
-                    code: '2919',
-                    quantity: 40,
-                  ),
-                  ProductCard(
-                    name: 'Líquido de frenos',
-                    code: '2920',
-                    quantity: 50,
-                  ),
-
-
-                ],
-
+              Expanded(
+                child: ListView(
+                  shrinkWrap: true,
+                  children: const [
+                    ProductCard(
+                      name: 'Aceite de motor',
+                      code: '2916',
+                      quantity: 10,
+                    ),
+                    ProductCard(
+                      name: 'Filtro de aire',
+                      code: '2917',
+                      quantity: 20,
+                    ),
+                    ProductCard(
+                      name: 'Aceite Vistony',
+                      code: '2918',
+                      quantity: 30,
+                    ),
+                    ProductCard(
+                      name: 'Aceite de transmisión',
+                      code: '2919',
+                      quantity: 40,
+                    ),
+                    ProductCard(
+                      name: 'Líquido de frenos',
+                      code: '2920',
+                      quantity: 50,
+                    ),
+                
+                
+                  ],
+                
+                ),
               ),
 
             ]
