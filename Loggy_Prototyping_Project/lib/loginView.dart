@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:loggy_prototyping_project/welcomeView.dart';
 class loginView extends StatelessWidget {
   const loginView({super.key});
 
