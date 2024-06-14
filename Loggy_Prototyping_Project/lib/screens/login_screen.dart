@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:loggy_prototyping_project/welcomeView.dart';
-class loginView extends StatelessWidget {
-  const loginView({super.key});
+import 'package:loggy_prototyping_project/screens/welcome_screen.dart';
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +57,7 @@ class loginView extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (BuildContext context) {
-                          return const welcomeView();
+                          return const WelcomeScreen();
                         },
                       ),
                     );

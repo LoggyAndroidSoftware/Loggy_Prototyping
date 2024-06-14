@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:loggy_prototyping_project/production.dart';
 
-class welcomeView extends StatelessWidget {
-  const welcomeView({super.key});
+class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

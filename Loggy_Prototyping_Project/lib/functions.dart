@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loggy_prototyping_project/inventory.dart';
+import 'package:loggy_prototyping_project/screens/inventory_screen.dart';
 
 class functions extends StatelessWidget {
 
@@ -23,7 +23,7 @@ class functions extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const inventory(),
+                    builder: (context) => const InventoryScreen(),
                   ),
                 );
               },

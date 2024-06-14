@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2806d6d-a20b-466d-ae33-a71e0ad56657" name="Changes" comment="" />
+    <list default="true" id="f2806d6d-a20b-466d-ae33-a71e0ad56657" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/model/product.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/inventory_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/widgets/product_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Loggy_Prototyping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loggy_Prototyping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/functions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/functions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/inventory.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/add_product_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/loginView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/welcomeView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/screens/welcome_screen.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,28 +25,58 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hr9joTJVx1GLldXH8ucHnCxJb1" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leona\AndroidStudioProjects\Loggy_Prototyping\Loggy_Prototyping_Project\lib\screens" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/Loggy_Prototyping_Project/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
