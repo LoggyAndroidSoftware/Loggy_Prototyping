@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:loggy_prototyping_project/functions.dart';
 
 
-class production extends StatelessWidget {
-  const production({super.key});
+class ProductionLinesScreen extends StatelessWidget {
+  const ProductionLinesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

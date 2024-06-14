@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loggy_prototyping_project/production.dart';
+import 'package:loggy_prototyping_project/screens/production_lines_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -13,7 +13,7 @@ class WelcomeScreen extends StatelessWidget {
           context,
           MaterialPageRoute(
             builder: (BuildContext context) {
-              return const production();
+              return const ProductionLinesScreen();
             },
           ),
         );
